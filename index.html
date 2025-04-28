@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UXNet | Home</title>
+  <link rel="stylesheet" href="screen.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🌸 UXNet</h1>
+      <nav>
+        <a href="index.html" class="nav-link active">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="profile-card">
+      <img src="Profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h2 class="username">@softux</h2>
+      <p class="bio">✨ Creating magical user journeys. Bubble tea fan. UX storyteller. ✨</p>
+      <button id="followBtn" class="btn">Follow 💖</button>
+    </section>
+
+    <section class="projects">
+      <h3>🌼 Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>💬 ChatFlow Redesign</h4>
+          <p>Reimagining messaging for smoother experiences.</p>
+        </div>
+        <div class="project-card">
+          <h4>🛍️ CozyCart UX</h4>
+          <p>Making online shopping feel like a hug.</p>
+        </div>
+        <div class="project-card">
+          <h4>🌙 Dreamy Night Mode</h4>
+          <p>Reducing eye strain with soothing dark themes.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with 💗 by UXNet</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
 </html>
